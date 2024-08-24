@@ -1,0 +1,66 @@
+.parts{
+	padding-top: 40PX;
+}
+
+
+
+h1{
+	text-align: center;
+	font-family: Bangers;
+}
+body{
+	background-image: url(bg.avif);
+	background-size: cover;
+}
+
+
+nav{
+	text-align: center;
+	display: inline;
+	width: 100%;
+}
+nav ul{
+	width: 100%;
+}
+nav ul li{
+	display: inline-block ;
+	text-align: center;
+	padding: 10px;
+	font size: 90px;
+	font-family: monospace;
+
+}
+nav a{
+	text-decoration: none;
+	color: black;
+}
+nav ul a:hover{
+	color:red;
+}
+.container{
+	background-color: lightgreen;
+	border: 2px double; black;
+	font-family: Edu VIC WA NT Beginner;
+	border-radius: 0;
+	 display: flex;
+     align-items: center;
+     font-size: 50;
+}
+.img{
+	width: 300px;
+	height: 208px;
+	margin: 10px;
+}
+button img{
+	position: relative;
+	max-width: 50px;
+
+}
+button{
+	float:right;
+	position: fixed;
+	bottom: 10px;
+	right: 5%;
+	left: 95;
+	padding: 0.5px;
+}
